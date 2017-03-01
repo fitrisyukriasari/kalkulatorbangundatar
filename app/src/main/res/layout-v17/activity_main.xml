@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity"
+    android:keepScreenOn="true"
+    android:gravity="center|center_horizontal"
+    android:orientation="vertical"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentEnd="true">
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/ib_persegipanjang"
+        android:onClick="b_persegipanjang_click"
+        android:src="@drawable/persegi_panjang"
+        android:scaleType="centerInside"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:adjustViewBounds="true"/>
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/ib_persegi"
+        android:onClick="b_persegi_click"
+        android:src="@drawable/persegi"
+        android:scaleType="centerInside"
+        android:orientation="vertical"
+        android:adjustViewBounds="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/ib_persegipanjang"/>
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/ib_segitiga"
+        android:onClick="b_segitiga_click"
+        android:src="@drawable/segitiga"
+        android:scaleType="centerInside"
+        android:orientation="vertical"
+        android:adjustViewBounds="true"
+        android:layout_toRightOf="@+id/ib_persegi" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/ib_jajargenjang"
+        android:onClick="b_jajargenjang_click"
+        android:src="@drawable/jajar_genjang"
+        android:scaleType="centerInside"
+        android:orientation="vertical"
+        android:adjustViewBounds="true"
+        android:layout_below="@+id/ib_persegipanjang" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/ib_trapesium"
+        android:onClick="b_trapesium_click"
+        android:src="@drawable/trapesium"
+        android:scaleType="centerInside"
+        android:orientation="vertical"
+        android:adjustViewBounds="true"
+        android:layout_below="@+id/ib_persegi"
+        android:layout_toRightOf="@+id/ib_jajargenjang"/>
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/ib_lingkaran"
+        android:onClick="b_lingkaran_click"
+        android:src="@drawable/lingkaran"
+        android:scaleType="centerInside"
+        android:orientation="vertical"
+        android:adjustViewBounds="true"
+        android:layout_below="@+id/ib_segitiga"
+        android:layout_toRightOf="@+id/ib_trapesium"/>
+
+
+</RelativeLayout>

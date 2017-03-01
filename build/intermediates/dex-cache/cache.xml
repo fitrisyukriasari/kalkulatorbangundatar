@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="H:\KalkulatorBangunDatar\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="H:\KalkulatorBangunDatar\app\build\intermediates\pre-dexed\debug\classes-683859f056ae6734717be6cb423f7ba7168a60a2.jar" />
+    </item>
+    <item
+        jar="C:\Users\HKR\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="H:\KalkulatorBangunDatar\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-94cc8d5d4b1f20e34cf21a4f428d4ee3fb4cd21d.jar" />
+    </item>
+    <item
+        jar="H:\KalkulatorBangunDatar\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="H:\KalkulatorBangunDatar\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-4f67a9b7fffab1ca663487cfcc923f39b95dd251.jar" />
+    </item>
+    <item
+        jar="H:\KalkulatorBangunDatar\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="H:\KalkulatorBangunDatar\app\build\intermediates\pre-dexed\debug\classes-c6cc31a7d81731a8d66a318f4743bbbbbb06963d.jar" />
+    </item>
+
+</items>
